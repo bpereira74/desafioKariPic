@@ -21,12 +21,12 @@
   <li class="nav-item">
   <%= link_to "Publicaciones", publications_path, class: 'nav-link' %>
   </li>
-  <li class="nav-item">
+  <%# <li class="nav-item">
   <%= link_to 'Tus reacciones', my_reactions_path, class: 'nav-link' %>
-  </li>
+  <%# </li>
   <li class="nav-item">
   <%= link_to 'Comentarios', comments_path, class: 'nav-link' %>
-  </li>
+  <%# </li> %>
  <li class="nav-item">
    <%= button_to 'Cierra sesion', destroy_user_session_path, method: :delete , class: 'nav-link' %>
   </li >
